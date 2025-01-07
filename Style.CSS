@@ -5,7 +5,9 @@
   font-family: sans-serif;
 }
 
-/*SECTION NAVIAGTION PART*/
+/****************************/
+/* navigation SECTION*/
+/****************************/
 
 header {
   position: relative;
@@ -14,7 +16,7 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .logo {
@@ -40,7 +42,18 @@ header {
   color: rgb(48, 43, 43);
 }
 
-/*SECTION HERO PART*/
+.login-icon {
+  width: 40px;
+  color: #f9f9f9;
+  margin-left: 20rem;
+}
+.login-icon:hover {
+  color: rgb(48, 43, 43);
+}
+
+/****************************/
+/* HERO SECTION*/
+/****************************/
 
 .hero {
   background-image: url("images/camping-3893598_1280.jpg");
@@ -74,8 +87,65 @@ header {
   color: rgb(43, 37, 37);
   padding: 10px 20px;
   font-size: 1.1rem;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .cta-button:hover {
-  background-color: rgb(221, 103, 61);
+  background-color: rgb(56, 48, 48);
+  color: orangered;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/****************************/
+/* HOW OT WORKS SECTION*/
+/****************************/
+.section-1 {
+  padding: 1rem;
+  background-color: #5db996;
+}
+
+.step {
+  font-size: 2rem;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.step-description {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.step-img-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-img {
+  width: 100%;
+  border-radius: 500px 0px 0px 500px;
 }
