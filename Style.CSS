@@ -115,10 +115,11 @@ header {
 }
 
 /****************************/
-/* HOW OT WORKS SECTION*/
+/* HOW its WORKS SECTION*/
 /****************************/
 .section-1 {
-  background-color: #5db996;
+  background-color: #4d8d75;
+  padding-top: 20px;
 }
 
 .step {
@@ -148,9 +149,12 @@ header {
   width: 100%;
   border-radius: 500px 0px 0px 500px;
 }
+.step-img2 {
+  width: 100%;
+  border-radius: 0px 500px 500px 0px;
+}
 .btn {
   text-decoration: none;
-  background-color: goldenrod;
   color: rgb(43, 37, 37);
   padding: 10px 20px;
   font-size: 1.1rem;
@@ -161,5 +165,60 @@ header {
   background-color: rgb(56, 48, 48);
   color: #ddd;
 }
-.section-2 {
+.step-text-box {
+  padding-left: 20px;
 }
+
+.explore {
+  padding-left: 20px;
+}
+
+/****************************/
+/* section-2
+/****************************/
+
+.section-2 {
+  background-color: #4d8d75;
+}
+
+.card {
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 250px;
+  align-items: center;
+  padding-top: 25rem;
+  padding-left: 1rem;
+  background-size: 400px 400px;
+}
+
+.card-text {
+  padding-bottom: 5rem;
+  color: #f9f9f9;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.content1 {
+  background-image: url(images/people-4817872_640.jpg);
+}
+.content2 {
+  background-image: url(images/people-4817872_640.jpg);
+}
+
+.content3 {
+  background-image: url(images/people-4817872_640.jpg);
+}
+.content4 {
+  background-image: url(images/people-4817872_640.jpg);
+}
+.content5 {
+  background-image: url(images/people-4817872_640.jpg);
+}
+
+/****************************/
+/* section-2
+/****************************/
