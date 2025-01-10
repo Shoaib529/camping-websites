@@ -65,11 +65,9 @@ header {
   align-items: center;
   padding-top: 2rem;
 }
-
 .hero-content {
   text-align: center;
 }
-
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 20px;
@@ -121,7 +119,6 @@ header {
   background-color: #4d8d75;
   padding-top: 20px;
 }
-
 .step {
   font-size: 2rem;
   color: #ddd;
@@ -132,7 +129,6 @@ header {
   line-height: 1;
   margin-bottom: 2rem;
 }
-
 .step-description {
   font-size: 1rem;
   line-height: 1;
@@ -190,6 +186,8 @@ header {
   padding-left: 1rem;
   background-size: 400px 400px;
 }
+.card {
+}
 
 .card-text {
   padding-bottom: 5rem;
@@ -200,6 +198,7 @@ header {
   display: flex;
   gap: 1rem;
   justify-content: center;
+  cursor: pointer;
 }
 
 .content1 {
@@ -208,9 +207,9 @@ header {
 .content2 {
   background-image: url(images/people-4817872_640.jpg);
 }
-
 .content3 {
   background-image: url(images/people-4817872_640.jpg);
+  filter: drop-shadow(10px 10px 10px #000000);
 }
 .content4 {
   background-image: url(images/people-4817872_640.jpg);
@@ -220,5 +219,29 @@ header {
 }
 
 /****************************/
-/* section-2
+/* section-3
 /****************************/
+.section-3 {
+  background-color: #4d8d75;
+}
+.complete-Reveiw {
+  padding-top: 50px;
+  text-align: center;
+}
+.complete-Reveiw p {
+  padding: 0rem 10rem;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+  padding: 5rem 10rem;
+  color: rgb(248, 192, 50);
+}
+.feature-icon {
+  color: goldenrod;
+  margin-bottom: 24px;
+  margin-left: 5rem;
+  width: 10rem;
+}
