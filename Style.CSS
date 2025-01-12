@@ -257,3 +257,31 @@ header {
 .features-text {
   padding-top: 2rem;
 }
+/****************************/
+/* section-4
+/****************************/
+
+.selection-4 {
+  background-image: url(images/pngtree-summer-night-camping-image_1947958.jpg);
+}
+
+.selection-4 h2,
+p {
+  color: #f9f9f9;
+  padding-top: 2rem;
+}
+.selection-4 p {
+  padding-bottom: 2rem;
+}
+
+.btn-3 {
+  text-decoration: none;
+  color: rgb(43, 37, 37);
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.btn-3:hover {
+  background-color: rgb(56, 48, 48);
+  color: #ddd;
+}
