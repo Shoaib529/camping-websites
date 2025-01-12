@@ -186,8 +186,6 @@ header {
   padding-left: 1rem;
   background-size: 400px 400px;
 }
-.card {
-}
 
 .card-text {
   padding-bottom: 5rem;
@@ -242,6 +240,20 @@ header {
 .feature-icon {
   color: goldenrod;
   margin-bottom: 24px;
-  margin-left: 5rem;
+  margin-left: 2rem;
   width: 10rem;
+}
+.heading-text {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+}
+.sub-heading {
+  padding-left: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+.features-text {
+  padding-top: 2rem;
 }
