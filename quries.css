@@ -1,0 +1,181 @@
+/* large screen (laptop) */
+@media (max-width: 1200px) {
+  .logo {
+    margin-right: 5rem;
+    margin-left: 4rem;
+  }
+
+  .login-icon {
+    margin-left: 10rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    padding: 3rem;
+  }
+
+  .step {
+    font-size: 1.5rem;
+  }
+
+  .step-img {
+    border-radius: 200px 0px 0px 200px;
+  }
+
+  .step-img2 {
+    border-radius: 0px 200px 200px 0px;
+  }
+
+  .card {
+    width: 100%;
+    background-size: 100% 100%;
+    padding-top: 10rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .grid-3-cols {
+    padding: 3rem;
+  }
+
+  .feature-icon {
+    width: 5rem;
+  }
+
+  .heading-text {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.5rem;
+  }
+
+  .selection-4 h2 {
+    font-size: 2rem;
+  }
+
+  .selection-4 p {
+    font-size: 1rem;
+  }
+
+  .btn-3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .login-icon {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+    background-size: cover;
+    padding-top: 15rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    padding: 3rem;
+  }
+
+  .feature-icon {
+    width: 6rem;
+  }
+
+  .heading-text {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    padding: 8px 15px;
+    font-size: 1rem;
+  }
+
+  .step {
+    font-size: 1.2rem;
+  }
+
+  .step-img {
+    border-radius: 150px 0px 0px 150px;
+  }
+
+  .step-img2 {
+    border-radius: 0px 150px 150px 0px;
+  }
+
+  .card {
+    width: 100%;
+    padding-top: 15rem;
+    background-size: cover;
+  }
+
+  .grid-3-cols {
+    padding: 2rem;
+  }
+
+  .feature-icon {
+    width: 5rem;
+  }
+
+  .heading-text {
+    font-size: 2rem;
+  }
+
+  .selection-4 h2 {
+    font-size: 1.5rem;
+  }
+
+  .selection-4 p {
+    font-size: 0.9rem;
+  }
+}
