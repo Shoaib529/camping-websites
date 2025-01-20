@@ -293,3 +293,15 @@ p {
 .selection-5 {
   background-color: #4d8d75;
 }
+.plan-text {
+  color: #ddd;
+  text-align: center;
+  padding-top: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: serif;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
